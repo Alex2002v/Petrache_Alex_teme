@@ -17,9 +17,5 @@ lista_impara_ordonata_ascendent = lista_ordonata_ascendent[::2]
 print(lista_ordonata_ascendent)
 print('lista_impara_ordonata_ascendent =', lista_impara_ordonata_ascendent, '\n')
 
-
-# lista_multipli_de_3 = lista
-# print(lista_multipli_de_3)
-# [0,3,6,9]
 lista_multipli_de_3 = lista_ordonata_ascendent[2::3]
 print('lista_multipli_de_3 =', lista_multipli_de_3)
