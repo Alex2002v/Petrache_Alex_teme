@@ -37,8 +37,8 @@ def recurs(n):
         return n + recurs(n-2)
 
 
-# 0+1+2+3+4+5+6+7 = 15
-suma2 = recurs(9)
+# 0+1+2+3+4+5+6+7 = 16
+suma2 = recurs(7)
 print('suma numerelor de la [0,n] =', suma2, '\n\n')
 
 
