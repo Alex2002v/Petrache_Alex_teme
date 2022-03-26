@@ -58,4 +58,3 @@ def an_function(a):
 
 
 an_function(a)
-print('alex')
