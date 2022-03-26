@@ -46,10 +46,6 @@ a = input()
 
 
 def an_function(a):
-    # if type(a) is int:
-    #     print(a)
-    # else:
-    #     return 0
     try:
         a = int(a)
         print('numarul tau este =', a)
