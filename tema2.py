@@ -2,14 +2,8 @@ def unidentified_function(*parameters, ):
     print(parameters)
     suma = 0
     for a in parameters:
-        if type(a) == int:
+        if type(a) == int or type(a) == float:
             suma = suma + a
-        else:
-            pass
-        if type(a) == float:
-            suma = suma + a
-        else:
-            pass
     print('Suma parametrilor =', suma, '\n\n')
 
 
