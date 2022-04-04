@@ -25,7 +25,7 @@ def recurs(n):
         return 0
     elif n == 1:
         return 1
-    if n // 2 == 0:
+    if n % 2 == 0:
         return n + recurs(n-2)
     else:
         return n + recurs(n-2)
