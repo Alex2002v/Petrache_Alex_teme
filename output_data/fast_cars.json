@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2103182542016,
+    "brand": "VW Passat",
+    "model": "sedan",
+    "hp": 120,
+    "price": 1300
+  },
+  {
+    "id": 2103182484224,
+    "brand": "Peugeot",
+    "model": "universal",
+    "hp": 150,
+    "price": 750
+  }
+]

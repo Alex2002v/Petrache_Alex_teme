@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2103178386496,
+    "brand": "Toyota",
+    "model": "hatchback",
+    "hp": 76,
+    "price": 400
+  },
+  {
+    "id": 2103182476224,
+    "brand": "Toyota",
+    "model": "suv",
+    "hp": 99,
+    "price": 600
+  }
+]

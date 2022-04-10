@@ -1,0 +1,30 @@
+[
+  {
+    "id": 2103178327344,
+    "brand": "VW Passat",
+    "model": "coupe",
+    "hp": 180,
+    "price": 1580
+  },
+  {
+    "id": 2103182545600,
+    "brand": "VW Passat",
+    "model": "coupe",
+    "hp": 220,
+    "price": 3024
+  },
+  {
+    "id": 2103182545984,
+    "brand": "Mazda",
+    "model": "coupe",
+    "hp": 250,
+    "price": 5400
+  },
+  {
+    "id": 2103182546048,
+    "brand": "Mazda",
+    "model": "targa",
+    "hp": 280,
+    "price": 5900
+  }
+]

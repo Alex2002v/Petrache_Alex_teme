@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2103182542016,
+    "brand": "VW Passat",
+    "model": "sedan",
+    "hp": 120,
+    "price": 1300
+  },
+  {
+    "id": 2103178327344,
+    "brand": "VW Passat",
+    "model": "coupe",
+    "hp": 180,
+    "price": 1580
+  },
+  {
+    "id": 2103182545600,
+    "brand": "VW Passat",
+    "model": "coupe",
+    "hp": 220,
+    "price": 3024
+  }
+]

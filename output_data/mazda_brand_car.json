@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2103182475392,
+    "brand": "Mazda",
+    "model": "sedan",
+    "hp": 88,
+    "price": 800
+  },
+  {
+    "id": 2103182545984,
+    "brand": "Mazda",
+    "model": "coupe",
+    "hp": 250,
+    "price": 5400
+  },
+  {
+    "id": 2103182546048,
+    "brand": "Mazda",
+    "model": "targa",
+    "hp": 280,
+    "price": 5900
+  }
+]
