@@ -138,11 +138,13 @@ def main():
     with open('output_data_tema3/vw_passat_brand_car.json', 'w') as json_file:
         json.dump(vw_passat_brand_car, json_file, indent=2)
 
-    with open('input_tema3.csv', 'a') as csv_file:
-        csv_writer = csv.writer(csv_file, delimiter=',')
 
+    with open('input_tema3.csv', 'w') as csv_file:
+        writer = csv.writer(csv_file)
+        keys = cars[0].keys()
+        writer.writerow(keys)
         for car in cars:
-            csv_writer.writerow(cars)
+            writer.writerow(car.values())
 
 
 if __name__ == '__main__':
