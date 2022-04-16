@@ -104,41 +104,41 @@ def main():
     print('brand_car =', mazda_brand_car)
     print('brand_car =', vw_passat_brand_car)
 
-    dir_ = os.path.join('C:\\', 'Users', 'Alex', 'Desktop', 'Teme-09-python', 'output_data')
+    dir_ = os.path.join('C:\\', 'Users', 'Alex', 'Desktop', 'Teme-09-python', 'output_data_tema3')
     if not os.path.exists(dir_):
         os.mkdir(dir_)
 
-    with open('output_data/slow_cars.json', 'w') as json_file:
+    with open('output_data_tema3/slow_cars.json', 'w') as json_file:
         json.dump(slow_cars, json_file, indent=2)
 
-    with open('output_data/fast_cars.json', 'w') as json_file:
+    with open('output_data_tema3/fast_cars.json', 'w') as json_file:
         json.dump(fast_cars, json_file, indent=2)
 
-    with open('output_data/sport_cars.json', 'w') as json_file:
+    with open('output_data_tema3/sport_cars.json', 'w') as json_file:
         json.dump(sport_cars, json_file, indent=2)
 
-    with open('output_data/cheap_car.json', 'w') as json_file:
+    with open('output_data_tema3/cheap_car.json', 'w') as json_file:
         json.dump(cheap_car, json_file, indent=2)
 
-    with open('output_data/medium_car.json', 'w') as json_file:
+    with open('output_data_tema3/medium_car.json', 'w') as json_file:
         json.dump(medium_car, json_file, indent=2)
 
-    with open('output_data/expensive_car.json', 'w') as json_file:
+    with open('output_data_tema3/expensive_car.json', 'w') as json_file:
         json.dump(expensive_car, json_file, indent=2)
 
-    with open('output_data/toyota_brand_car.json', 'w') as json_file:
+    with open('output_data_tema3/toyota_brand_car.json', 'w') as json_file:
         json.dump(toyota_brand_car, json_file, indent=2)
 
-    with open('output_data/peugeot_brand_car.json', 'w') as json_file:
+    with open('output_data_tema3/peugeot_brand_car.json', 'w') as json_file:
         json.dump(peugeot_brand_car, json_file, indent=2)
 
-    with open('output_data/mazda_brand_car.json', 'w') as json_file:
+    with open('output_data_tema3/mazda_brand_car.json', 'w') as json_file:
         json.dump(mazda_brand_car, json_file, indent=2)
 
-    with open('output_data/vw_passat_brand_car.json', 'w') as json_file:
+    with open('output_data_tema3/vw_passat_brand_car.json', 'w') as json_file:
         json.dump(vw_passat_brand_car, json_file, indent=2)
 
-    with open('input.csv', 'a') as csv_file:
+    with open('input_tema3.csv', 'a') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=',')
 
         for car in cars:
